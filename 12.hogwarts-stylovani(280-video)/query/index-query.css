@@ -1,0 +1,11 @@
+@media (max-width: 500px) {
+
+    .main-heading h1 {
+        font-size: 40px;
+    }
+
+    .main-heading h2 {
+        font-size: 30px;
+    }
+
+}
