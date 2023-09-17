@@ -1,0 +1,47 @@
+main {
+    min-height: 100vh;
+    background: linear-gradient(black, rgb(5, 5, 76));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+form input, form textarea {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    outline: none;
+}
+
+form input {
+    width: 270px;
+}
+
+form textarea {
+    width: 555px;
+}
+
+input[type="submit"] {
+    background-color: #ad8924;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #c29a2b;
+}
