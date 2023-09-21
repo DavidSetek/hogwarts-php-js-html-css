@@ -1,0 +1,56 @@
+/* Form section */
+.form {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.702)),
+            url(../img/background.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form h1 {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.form form {
+    text-align: center;
+}
+
+input::placeholder {
+    color: rgb(178, 178, 178);
+}
+
+.email, .password {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 250px;
+    font-size: 20px;
+    padding: 5px 10px;
+    background: #a17e20;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    background: #be9524;
+}

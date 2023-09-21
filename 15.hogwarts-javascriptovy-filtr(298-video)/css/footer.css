@@ -1,0 +1,15 @@
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 70px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer p {
+    line-height: 70px;
+} */
