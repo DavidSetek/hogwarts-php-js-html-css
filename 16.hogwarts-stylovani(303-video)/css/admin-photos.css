@@ -1,0 +1,79 @@
+main {
+    min-height: 100vh;
+    background: linear-gradient(black, rgb(5, 5, 76));
+    padding-bottom: 50px;
+}
+
+/* Upload photos section */
+.upload-photos {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-photos h1 {
+    margin-top: 20px;
+}
+
+.upload-photos form {
+    display: flex;
+    flex-direction: column;
+}
+
+#choose-file-text {
+    font-size: 20px;
+    text-align: center;
+    background: #5e3333;
+    color: white;
+    margin-top: 15px;
+    padding: 5px 10px;
+}
+
+#choose-file {
+    display: none;
+}
+
+.upload-file {
+    font-size: 20px;
+    background: #a17e20;
+    color: white;
+    margin-top: 15px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+/* Images section */
+.images article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.images img {
+    width: 300px;
+}
+
+.images-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.images-btn a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+.images-btn-download {
+    background-color: #a17e20;
+}
+
+.images-btn-delete {
+    background-color: red;
+}

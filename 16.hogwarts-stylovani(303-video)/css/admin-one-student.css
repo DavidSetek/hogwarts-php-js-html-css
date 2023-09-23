@@ -1,0 +1,43 @@
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.468), rgba(0, 0, 0, 0.523)),
+                url("../img/hogwarts-admin-background-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.one-student {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-student-box {
+    width: 300px;
+    min-height: 130px;
+    background-color: rgba(250, 232, 215, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-student-buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.edit-one-student {
+    background-color: #a17e20;
+}
+
+.delete-one-student {
+    background-color: rgb(189, 31, 31);
+}
